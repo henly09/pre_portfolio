@@ -50,11 +50,11 @@
 <table class="contacticons">
 		
 	<tr>
-		<td id="go"> <a href="https://twitter.com/HenzQwerty"> <img src="{{ asset('Images/twit.png') }}" width="70" lenght="70"> </a></td>
-		<td id="go"> <a href="https://www.facebook.com/mhax.ter/"><img src="{{ asset('Images/fb.png') }}" width="70" lenght="70"></a></td>
-		<td id="go"> <a href="https://www.instagram.com/henzzmontera/"><img src="{{ asset('Images/ig.png') }}" width="70" lenght="70"></a></td>
-		<td id="go"> <a href="https://gmail.com/"><img src="{{ asset('Images/gmail.png') }}" width="70" lenght="70"></a></td>
-		<td id="go"> <a href="https://github.com/henly09"><img src="{{ asset('Images/github.png') }}" width="70" lenght="70"></a></td>
+		<td id="go"> <a href="https://twitter.com/HenzQwerty" target="_blank"> <img src="{{ asset('Images/twit.png') }}" width="70" lenght="70"> </a></td>
+		<td id="go"> <a href="https://www.facebook.com/mhax.ter/" target="_blank"><img src="{{ asset('Images/fb.png') }}" width="70" lenght="70"></a></td>
+		<td id="go"> <a href="https://www.instagram.com/henzzmontera/" target="_blank"><img src="{{ asset('Images/ig.png') }}" width="70" lenght="70"></a></td>
+		<td id="go"> <a href="https://gmail.com/" target="_blank"><img src="{{ asset('Images/gmail.png') }}" width="70" lenght="70"></a></td>
+		<td id="go"> <a href="https://github.com/henly09" target="_blank"><img src="{{ asset('Images/github.png') }}" width="70" lenght="70"></a></td>
 	</tr>
 
 </table>
@@ -183,11 +183,11 @@
 	<table>
 
 		<tr>
-			<td id="go"> <a href="https://twitter.com/HenzQwerty"> <img src="{{ asset('Images/twit.png') }}" width="40" lenght="40"> </a></td>
-			<td id="go"> <a href="https://www.facebook.com/mhax.ter/"><img src="{{ asset('Images/fb.png') }}" width="40" lenght="40"></a></td>
-			<td id="go"> <a href="https://www.instagram.com/henzzmontera/"><img src="{{ asset('Images/ig.png') }}" width="40" lenght="40"></a></td>
-			<td id="go"> <a href="https://gmail.com/"><img src="{{ asset('Images/gmail.png') }}" width="40" lenght="40"></a></td>
-			<td id="go"> <a href="https://github.com/henly09"><img src="{{ asset('Images/github.png') }}" width="40" lenght="40"></a></td>
+			<td id="go"> <a href="https://twitter.com/HenzQwerty" target="_blank"> <img src="{{ asset('Images/twit.png') }}" width="40" lenght="40"> </a></td>
+			<td id="go"> <a href="https://www.facebook.com/mhax.ter/" target="_blank"><img src="{{ asset('Images/fb.png') }}" width="40" lenght="40"></a></td>
+			<td id="go"> <a href="https://www.instagram.com/henzzmontera/" target="_blank"><img src="{{ asset('Images/ig.png') }}" width="40" lenght="40"></a></td>
+			<td id="go"> <a href="https://gmail.com/" target="_blank"><img src="{{ asset('Images/gmail.png') }}" width="40" lenght="40"></a></td>
+			<td id="go"> <a href="https://github.com/henly09" target="_blank"><img src="{{ asset('Images/github.png') }}" width="40" lenght="40"></a></td>
 		</tr>
 
 	</table>
