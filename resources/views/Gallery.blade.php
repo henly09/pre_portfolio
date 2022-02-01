@@ -40,7 +40,7 @@
 
 <div>
 
-<p class="head-title1">Gallery:</p>
+<p class="gallery_head-title1">Gallery:</p>
 
 	<p class="description">	Here are some of my projects that are in beta stage and
 		needed to be debug. Some of these are my projects since my first year of
@@ -122,8 +122,7 @@ function showSlides(n) {
 </div>
 </header>
 <li class="trans2"></li>
-<h1>&nbsp</h1>
-<h1>&nbsp</h1>
+
 <body style="background: linear-gradient( rgba(33, 28, 31, 0.73), rgba(33, 28, 31, 0.73) ), url('{{ asset('Images/grey.jpg') }}');">
 <div class="figure1">
 <p class="logo2" data-aos="fade-down"> Gallery </p>

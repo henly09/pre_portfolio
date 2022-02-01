@@ -27,9 +27,9 @@
 			<li> <a href="/Contacts">CONTACTS </a> </li>
 		</ul>
 	</nav>
-<div class="wawets" data-aos="fade-down">
-<div>
-<p class="head-title1">Contact Me:</p>
+<div class="wawets2" data-aos="fade-down">
+<div id="division">
+<p class="contact_head-title1">Contact Me:</p>
 	<p class="description"> 
 		If you have concerns about me or about my projects. 
 		Contact me using this tools at the bottom or by clicking 

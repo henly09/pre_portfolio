@@ -20,7 +20,7 @@
 	</nav>
 <div class="wawets" data-aos="fade-down">
 <div>
-<img id="profilepic" src="{{ asset('Images/dp.jpg') }}" width="500px">
+<img id="profilepic" src="{{ asset('Images/dp.jpg') }}">
 <p class="head-title1">Hello! I'm Henz!</p>
 <p class="head-title">I'm a Backend-programmer / Computer Technician</p>
 </div>
@@ -30,8 +30,9 @@
 </div>
 </div>
 </header>
+
 <li class="trans2"> </li>
-<h1>&nbsp</h1>
+
 <body style="background: linear-gradient( rgba(33, 28, 31, 0.73), rgba(33, 28, 31, 0.73) ), url('{{ asset('Images/grey.jpg') }}');">
 
 <div class="figure1">
