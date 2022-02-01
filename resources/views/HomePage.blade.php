@@ -5,19 +5,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
 	<link rel="icon" href="{{ asset('Images/p.png') }}">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Home</title>
 </head>
 <header style="background: linear-gradient( rgba(27, 23, 25, 0.91), rgba(27, 23, 25, 0.91) ), url('{{ asset('Images/objectives.png') }}');">
 <li class="trans">  </li>
 	<nav>
-			<p class="logo">MY PORTFOLIO </p>
-			<ul class="navigation">
+			<p data-aos="fade-right" class="logo">MY PORTFOLIO </p>
+			<ul class="navigation" data-aos="fade-left">
 			<li> <a href="/">HOME</a> </li>
 			<li> <a href="/Gallery">GALLERY </a> </li>
 			<li> <a href="/Contacts">CONTACTS </a> </li>
 			</ul>
 	</nav>
-<div class="wawets">
+<div class="wawets" data-aos="fade-down">
 <div>
 <img id="profilepic" src="{{ asset('Images/dp.jpg') }}" width="500px">
 <p class="head-title1">Hello! I'm Henz!</p>
@@ -32,10 +33,12 @@
 <li class="trans2"> </li>
 <h1>&nbsp</h1>
 <body style="background: linear-gradient( rgba(33, 28, 31, 0.73), rgba(33, 28, 31, 0.73) ), url('{{ asset('Images/grey.jpg') }}');">
+
 <div class="figure1">
-<p class="logo2">Biography:</p>
-		<figure class="fig1">
-			<table>
+
+<p class="logo2" data-aos="fade-down">Biography:</p>
+		<figure class="fig1" data-aos="fade-right">
+			<table >
 			<tr>	
 			<th colspan="1">	
 				 <img src="{{ asset('Images/intro.png') }}" style="width: 550px; border-radius: 10px;"> 
@@ -55,8 +58,9 @@
 			</table>
 		</figure>
 </div>
+
 <div class="figure2">
-	<figure class="fig2">
+	<figure class="fig2" data-aos="fade-left">
 			<table>
 			<tr>
 			<th>
@@ -80,7 +84,7 @@
 </div>
 </div>
 <div class="figure1">
-		<figure class="fig1">
+		<figure class="fig1" data-aos="fade-right">
 			<table>
 			<tr>	
 			<th colspan="1">	
@@ -100,7 +104,7 @@
 		</figure>
 </div>
 <div class="figure2">
-	<figure class="fig2">
+	<figure class="fig2" data-aos="fade-left">
 			<table>
 			<tr>
 			<th>
@@ -159,7 +163,7 @@
 				<td id="poi"> 09633473223 </td>
 			</tr>
 	</table>
-	<table>
+	<table data-aos="fade-right">
 		<tr>
 			<td id="go"> <a href="https://twitter.com/HenzQwerty" target="_blank"> <img src="{{ asset('Images/twit.png') }}" width="40" lenght="40"> </a></td>
 			<td id="go"> <a href="https://www.facebook.com/mhax.ter/" target="_blank"><img src="{{ asset('Images/fb.png') }}" width="40" lenght="40"></a></td>
@@ -174,3 +178,8 @@
 </center>
 </footer>
 </html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>

@@ -10,22 +10,24 @@
 
 <link rel="icon" href="{{ asset('Images/p.png') }}">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <title>Contacts</title>
 
 </head>
 <header style="background: linear-gradient( rgba(27, 23, 25, 0.91), rgba(27, 23, 25, 0.91) ), url('{{ asset('Images/objectives.png') }}');">
 <li class="trans"> </li>
 	<nav>
-	<p class="logo">MY PORTFOLIO </p>
+	<p class="logo" data-aos="fade-right">MY PORTFOLIO </p>
 
-			<ul class="navigation">
+			<ul class="navigation" data-aos="fade-left">
 			
 			<li> <a href="/">HOME</a> </li>
 			<li> <a href="/Gallery">GALLERY </a> </li>
 			<li> <a href="/Contacts">CONTACTS </a> </li>
 		</ul>
 	</nav>
-<div class="wawets">
+<div class="wawets" data-aos="fade-down">
 <div>
 <p class="head-title1">Contact Me:</p>
 	<p class="description"> 
@@ -47,24 +49,26 @@
 		<img src="{{ asset('Images/awawaw.png') }}" width="100%" height="100%">
 	</div>
 </div>
+
 </header>
+
 <li class="trans2"></li>
 <h1>&nbsp</h1>
 <h1>&nbsp</h1>
 <body style="background: linear-gradient(rgba(33, 28, 31, 0.73),rgba(33, 28, 31, 0.73) ), url('{{ asset('Images/grey.jpg') }}');">
 <center>	
-	<div class="canto">
+	<div class="canto" data-aos="fade-down">
 	<form id="email">
   		<label for="fname">Email:</label>
   			<input type="text">
 	</form>
-	<form id="name">
+	<form id="name" >
 		<label for="fname">Name:</label>
   			<input type="text">
 	</form>
 	</div>
 </center>
-	<div class="contak">
+	<div class="contak" data-aos="fade-right">
 	<form id="email2">
   		<label>Message:</label>
 	</form>
@@ -120,7 +124,7 @@
 				<td id="poi"> 09633473223 </td>
 			</tr>
 	</table>
-	<table>
+	<table data-aos="fade-right">
 		<tr>
 			<td id="go"> <a href="https://twitter.com/HenzQwerty" target="_blank"> <img src="{{ asset('Images/twit.png') }}" width="40" lenght="40"> </a></td>
 			<td id="go"> <a href="https://www.facebook.com/mhax.ter/" target="_blank"><img src="{{ asset('Images/fb.png') }}" width="40" lenght="40"></a></td>
@@ -135,3 +139,8 @@
 </center>
 </footer>
 </html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>

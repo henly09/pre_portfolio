@@ -12,6 +12,8 @@
 
 <link rel="icon" href="{{ asset('Images/p.png') }}">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<title>Gallery</title>
 
 </head>
@@ -22,9 +24,9 @@
 
 	<nav>
 
-	<p class="logo">MY PORTFOLIO </p>
+	<p class="logo" data-aos="fade-right">MY PORTFOLIO </p>
 
-			<ul class="navigation">
+			<ul class="navigation" data-aos="fade-left">
 			
 			<li> <a href="/">HOME</a> </li>
 			<li> <a href="/Gallery">GALLERY </a> </li>
@@ -34,7 +36,7 @@
 
 	</nav>
 
-<div class="wawets">
+<div class="wawets" data-aos="fade-down">
 
 <div>
 
@@ -124,8 +126,8 @@ function showSlides(n) {
 <h1>&nbsp</h1>
 <body style="background: linear-gradient( rgba(33, 28, 31, 0.73), rgba(33, 28, 31, 0.73) ), url('{{ asset('Images/grey.jpg') }}');">
 <div class="figure1">
-<p class="logo2"> Gallery </p>
-		<figure class="fig1">
+<p class="logo2" data-aos="fade-down"> Gallery </p>
+		<figure class="fig1" data-aos="fade-right">
 			<table>
 			<tr>	
 			<th colspan="1">	
@@ -144,7 +146,7 @@ function showSlides(n) {
 		</figure>
 </div>
 <div class="figure2">
-	<figure class="fig2">
+	<figure class="fig2" data-aos="fade-left">
 			<table>
 			<tr>
 			<th>
@@ -165,7 +167,7 @@ function showSlides(n) {
 		</figure>
 </div>
 <div class="figure3">
-		<figure class="fig3">
+		<figure class="fig3" data-aos="fade-right">
 			<table>
 			<tr>	
 			<th colspan="1">	
@@ -186,7 +188,7 @@ function showSlides(n) {
 		</figure>
 </div>
 <div class="figure4">
-	<figure class="fig4">
+	<figure class="fig4" data-aos="fade-left">
 			<table>
 			<tr>
 			<th>
@@ -243,7 +245,7 @@ function showSlides(n) {
 				<td id="poi"> 09633473223 </td>
 			</tr>
 	</table>
-	<table>
+	<table data-aos="fade-right">
 		<tr>
 			<td id="go"> <a href="https://twitter.com/HenzQwerty" target="_blank"> <img src="{{ asset('Images/twit.png') }}" width="40" lenght="40"> </a></td>
 			<td id="go"> <a href="https://www.facebook.com/mhax.ter/" target="_blank"><img src="{{ asset('Images/fb.png') }}" width="40" lenght="40"></a></td>
@@ -258,3 +260,8 @@ function showSlides(n) {
 </center>
 </footer>
 </html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
